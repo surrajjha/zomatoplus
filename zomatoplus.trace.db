@@ -1,3 +1,6 @@
 06-27 21:54:43 jdbc[13]: exception
 org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM TBL_USER TBL_USER TBL_USER"; SQL statement:
 SELECT * FROM TBL_USER TBL_USER TBL_USER [42000-156]
+06-28 10:14:59 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM"; expected "identifier"; SQL statement:
+SELECT * FROM [42001-156]

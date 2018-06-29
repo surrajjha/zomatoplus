@@ -22,7 +22,7 @@ public class User implements Serializable
 	private Long name;
 	
 	@Column(name="type")
-	private String type;
+	private Long type;
 	
 	@Column(name="mobile")
 	private Long mobile;
@@ -31,7 +31,7 @@ public class User implements Serializable
 	private String password;
 	
 	@Column(name="landmark")
-	private String landmark;
+	private Long landmark;
 	
 	
 	@Column(name="city")
@@ -58,8 +58,8 @@ public class User implements Serializable
 	}
 
 
-	public Long getType() {
-		return type;
+	public String getType() {
+		return getType();
 	}
 
 
@@ -98,12 +98,12 @@ public class User implements Serializable
 	}
 
 
-	public Long getCity() {
+	public String getCity() {
 		return city;
 	}
 
 
-	public void setCity(Long city) {
+	public void setCity(String city) {
 		this.city = city;
 	}
 
